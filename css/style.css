@@ -1,4 +1,3 @@
-
 /* general rules */
 * {
     margin: 0;
@@ -18,12 +17,6 @@ body {
 }
 
 /* header style */
-
-header {
-    /* debug */
-    /* background-color: rgb(215, 126, 224);
-    height: 100px; */
-}
 
 header img {
     height: 80px;
@@ -61,9 +54,6 @@ li a {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    /* debug */
-    /* background-color: rgb(223, 214, 134); */
-    /* height: 300px; */
 }
 
 .text_positoning {
@@ -72,6 +62,7 @@ li a {
     bottom: 10%;
     left: 3%
 }
+
 #jumbotron h3 {
     font-size: 28px;
     font-weight: 400;
@@ -83,81 +74,62 @@ li a {
 
     /* article main title */
  .article_title {
-     font-size: 30px;
-     font-weight: 700;
-     margin-bottom: 30px;
-     /* debug */
-     /* height: 100px;
-     background-color: rgb(179, 206, 228); */
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
  }
 
  .article_title p{
     font-size: 20px;
     font-weight: 400;
     color: rgb(160, 160, 160);
-
  }
 
     /* float setup */
- #container{
-     /* debug */
-     /* background-color: rgb(58, 132, 247); */
-     /* width: 100%; */
- }
-
  aside, article {
-     float: left;
-     margin-bottom: 20px;
-     overflow: hidden;
-     /* debug */
-     /* height: 450px; */
- }
+    float: left;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 
  aside h4, article h4, aside p, article p {
-     margin-top: 20px;
-     color: rgb(138, 138, 138);
- }
+    margin-top: 20px;
+    color: rgb(138, 138, 138);
+}
 
  aside {
-     width: 20%;
-     /* debug */
-     /* background-color: rgb(179, 206, 228); */
- }
+    width: 20%;
+}
 
  article {
-     margin: 0 2%;
-     width: 56%;
-     /* debug */
-     /* background-color: rgb(179, 206, 228); */
-    }
+    margin: 0 2%;
+    width: 56%;
+}
 
-    aside img, article img {
-       filter: brightness(80%);
-       width: 100%;
-       border-radius: 10px;
-       height: 200px
-   }
+        /* immagini in background float  */
+.float_img {
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    border-radius: 10px;
+    overflow: hidden;
+}
 
-   /* prova di immagine in background  */
-
-   .bckgrnd_img {
-       background-image: url('../img/img-3.jpg');
-       background-position: center;
-       background-size: cover;
-       width: 100%;
-       height: 230px;;
-   }
+.sxaside .float_img {
+    background-image: url('../img/img-1.jpg');
+}
+article .float_img {
+    background-image: url('../img/banner-2.jpg');
+}
+.dxaside .float_img {        
+    background-image: url('../img/img-3.jpg');
+}
 
  /* footer */
-
  footer {
      text-align: center;
-     margin-top: 10px;
-     /* debug */
-     /* background-color: rgb(124, 23, 244);
-     height: 80px; */
+     margin-top: 30px;
  }
-
  .red_hearts {
      color: red;
  }
