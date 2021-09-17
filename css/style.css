@@ -89,7 +89,6 @@ li a {
  aside, article {
     float: left;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 
  aside h4, article h4, aside p, article p {
@@ -106,7 +105,7 @@ li a {
     width: 56%;
 }
 
-        /* immagini in background float  */
+        /* float background images  */
 .float_img {
     background-position: center;
     background-size: cover;
@@ -128,9 +127,10 @@ article .float_img {
  /* footer */
  footer {
      text-align: center;
-     margin-top: 30px;
+     margin-top: 40px;
  }
  .red_hearts {
      color: red;
+     font-size: 20px;
  }
 
