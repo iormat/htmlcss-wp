@@ -45,11 +45,39 @@ li a {
 }
 
 /* main style */
- .catchy_image {
-     margin: 20px 0;
-     /* debug */
-     background-color: rgb(223, 214, 134);
-     height: 300px;
+
+/* jumbotron style */
+#jumbotron {
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    margin: 20px 0;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    /* debug */
+    /* background-color: rgb(223, 214, 134); */
+    /* height: 300px; */
+}
+#transparency {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.text_positioning {
+    max-width: 55%;
+    position: absolute;
+    bottom: 10%;
+    left: 3%
+}
+#jumbotron h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+ #jumbotron h3, #jumbotron p {
+     color: rgb(243, 243, 243);
  }
 
  .article_title {
