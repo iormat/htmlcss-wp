@@ -1,0 +1,78 @@
+
+/* general rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header style */
+header {
+    /* debug */
+    background-color: rgb(215, 126, 224);
+    height: 100px;
+}
+
+/* main style */
+ .catchy_image {
+     margin: 20px 0;
+     /* debug */
+     background-color: rgb(223, 214, 134);
+     height: 300px;
+ }
+
+ .article_title {
+     margin-bottom: 20px;
+     /* debug */
+     height: 100px;
+     background-color: rgb(179, 206, 228);
+ }
+
+ /* float setup */
+ #container{
+     /* debug */
+     background-color: rgb(58, 132, 247);
+     width: 100%;
+ }
+
+ aside, article {
+     float: left;
+     margin-bottom: 20px;
+     /* debug */
+     height: 450px;
+ }
+
+ aside {
+     width: 20%;
+     /* debug */
+     background-color: rgb(179, 206, 228);
+ }
+ article {
+     margin: 0 2%;
+     width: 56%;
+     /* debug */
+    background-color: rgb(179, 206, 228);
+ }
+
+ /* footer */
+
+ footer {
+     margin-top: 10px;
+     /* debug */
+     background-color: rgb(124, 23, 244);
+     height: 80px;
+ }
+
+
+
+
